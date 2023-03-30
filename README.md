@@ -15,28 +15,31 @@
   <br>
 
 ### Overview
-슬랙봇 이미지 추가
-<!-- 구슬이는 귀여운 슬랙봇입니다. -->
+#### Bot Design
+<img src="https://user-images.githubusercontent.com/71624077/228735208-8e8608dc-f6c8-435a-bf67-ec43f52ab407.jpg" width="100" height="100"/>
 
 #### 작동 방식
-Slack API의 Slash command와 Interactivity & Shortcuts로 작동합니다.
+Slack API의 Slash command와 Interactivity & Shortcuts을 이용합니다.
 
-작동 방식 설명 추가
 
 <br>
 
 
 ## About Project
-### Demo
-
-* 데모 동영상 
-
-
-<!-- https://동영상 첨부 -->
-
 
 ### App
 
+#### Feature 1
+* 회의 시작 전 리마인드 기능 (/리마인드 추가)
+
+#### Feature 2
+* 슬랙 채널에 익명 질문/답변 기능 (/질문하기)
+
+#### Feature 3
+* 자주하는 질문(FAQ) 답변 (/자주하는 질문)
+
+
+<!--
 |                  기능                |     화면     |
 | :----------------------------------: | :----------: |
 |     회의 시작 전 리마인드 기능        |  기능 화면1  |
@@ -44,21 +47,24 @@ Slack API의 Slash command와 Interactivity & Shortcuts로 작동합니다.
 |     자주하는 질문(FAQ) 답변           |  기능 화면3  |
 
   <br>
-
+-->
 ## Stacks
 
 ### Web Backend
 
-* FastAPI + Python3 + SlackAPI
+* FastAPI + Python3
 
 ### Server
-AWS EC2
 
-  <br>
+* AWS EC2
+
+### Development Repository
+* [KUSL-dev](https://github.com/JaerryLee/KUSL-dev).
+  
+<br>
 
 ## The Team
 ### 개발
-<!-- 가나다순으로썼어요 -->
 * 하채영 <a href="https://github.com/ChaeyoungHa"><img src="https://img.shields.io/badge/Github-181717?style=flat-square&logo=Github&logoColor=white&link=https://github.com/ChaeyoungHa"/></a>/ GDSC 코어 / 22.09 ~
 * 김한별 <a href="https://github.com/khan1652"><img src="https://img.shields.io/badge/Github-181717?style=flat-square&logo=Github&logoColor=white&link=https://github.com/khan1652"/></a>/ GDSC 크루 / 22.09 ~
 * 이정재 <a href="https://github.com/JaerryLee"><img src="https://img.shields.io/badge/Github-181717?style=flat-square&logo=Github&logoColor=white&link=https://github.com/JaerryLee"/></a>/ GDSC 크루 / 22.09 ~
